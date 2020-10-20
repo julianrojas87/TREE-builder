@@ -1,0 +1,39 @@
+{
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "geonames": "http://www.geonames.org/ontology#",
+    "geosparql": "http://www.opengis.net/ont/geosparql#",
+    "isDefinedBy": {
+        "@type": "@id",
+        "@id": "rdfs:isDefinedBy"
+    },
+    "countryCode": {
+        "@type": "@id",
+        "@id": "geonames:countryCode"
+    },
+    "featureClass": {
+        "@type": "@id",
+        "@id": "geonames:featureClass"
+    },
+    "featureCode": {
+        "@type": "@id",
+        "@id": "geonames:featureCode"
+    },
+    "name": {
+        "@type": "xsd:string",
+        "@id": "geonames:name"
+    },
+    "asWKT": {
+        "@type": "geosparql:wktLiteral",
+        "@id": "geosparql:asWKT"
+    },
+    "lat": {
+        "@type": "xsd:double",
+        "@id": "geo:lat"
+    },
+    "long": {
+        "@type": "xsd:double",
+        "@id": "geo:long"
+    }
+}

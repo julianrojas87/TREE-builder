@@ -1,0 +1,20 @@
+{
+  "name": "TREE-builder",
+  "version": "0.1.0",
+  "description": "Application to build prefix and suffix-based autocompletion TREEs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd node_modules/linkeddatatree && npm install && npm run build && rm -r node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:julianrojas87/TREE-builder.git"
+  },
+  "author": "Julian Rojas",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "linkeddatatree": "github:Dexagod/linked_data_tree"
+  }
+}

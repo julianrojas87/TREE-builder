@@ -1,0 +1,49 @@
+{
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "osm": "https://w3id.org/openstreetmap/terms#",
+    "geosparql": "http://www.opengis.net/ont/geosparql#",
+    "name": {
+        "@id": "osm:name"
+    },
+    "osm:wikidata": {
+        "@type": "@id"
+    },
+    "asWKT": {
+        "@type": "geosparql:wktLiteral",
+        "@id": "geosparql:asWKT"
+    },
+    "lat": {
+        "@type": "xsd:double",
+        "@id": "geo:lat"
+    },
+    "long": {
+        "@type": "xsd:double",
+        "@id": "geo:long"
+    },
+    "osm:class": {
+        "@type": "@id"
+    },
+    "osm:boundary": {
+        "@type": "@id"
+    },
+    "osm:place": {
+        "@type": "@id"
+    },
+    "osm:highway": {
+        "@type": "@id"
+    },
+    "osm:waterway": {
+        "@type": "@id"
+    },
+    "osm:multiple": {
+        "@type": "@id"
+    },
+    "osm:natural": {
+        "@type": "@id"
+    },
+    "osm:landuse": {
+        "@type": "@id"
+    }
+}
